@@ -1,0 +1,104 @@
+body{
+    background: linear-gradient(#433878 0%, #7E60BF 40%, #E4B1F0 100%);
+    font-family: 'Afadax flux', sans-serif;
+}
+
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigasi a{
+    color: white;
+}
+
+.navigasi img{
+    width: 50px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profileImage{
+    width: 200px;
+}
+
+.profile h2{
+    color: white;
+}
+
+.profile h4{
+    color: white;
+    transform: translateY(-5px);
+}
+
+.biodata{
+    background: linear-gradient(#ffff 0%, #ffffffc4 40%, #e4b1f000 100%);
+    padding-bottom: 150px;
+    padding-top: 55px;
+}
+
+.kotak{
+    background-color: #7E60BF;
+    color: whitesmoke;
+}
+
+.row{
+    padding: 0px 20px;
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.contact a{
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.watermark{
+    padding-top: 30px;
+}
+
+.achievement h1{
+    padding-bottom: 20px;
+}
+
+.achievement{
+    padding-top: 55px;
+}
+
+/* Mengubah background dan teks modal */
+.custom-modal-bg {
+    background-color: black; /* Warna latar belakang modal */
+    color: #ffffff;            /* Warna teks */
+    border: 2px solid #7E60BF;  /* Border kustom */
+  }
+  
+  /* Mengubah warna header modal */
+  .custom-modal-bg .modal-header {
+    background-color: black; /* Warna latar belakang header */
+    color: white;              /* Warna teks header */
+  }
+  
+  /* Mengubah warna footer modal */
+  .custom-modal-bg .modal-footer {
+    background-color: rgb(28, 28, 28); /* Warna latar belakang footer */
+  }
+  
+  /* Mengubah warna button */
+  .custom-modal-bg .btn-primary {
+    background-color: #2980b9; /* Warna tombol */
+    border-color: #2980b9;
+  }
+  
+.card{
+    margin-bottom: 20px;
+}
