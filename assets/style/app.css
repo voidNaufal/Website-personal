@@ -102,3 +102,13 @@ body{
 .card{
     margin-bottom: 20px;
 }
+
+.card-link {
+    color: #433878; /* Ganti dengan warna yang kamu inginkan */
+    text-decoration: none; /* Menghilangkan garis bawah */
+}
+
+.card-link:hover {
+    text-decoration: underline; /* Garis bawah muncul saat hover */
+    color: black; /* Ganti dengan warna saat hover */
+}
